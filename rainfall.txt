@@ -1,0 +1,13 @@
+Input 
+length_of_roof (feet)
+width_of_roof (feet)
+amt_of_rain (inches) 
+
+Output 
+runoff_in_gallons(gallons)
+
+Processing Steps
+runoff_in_cu_inches = (length_of_roof *12) * (width_of_roof *12 )*
+(amt_of_rain)
+runoff_in_gallons + runoff_in_gallons/231
+(50*12) * (20*12) *1 /231 = 623.38
